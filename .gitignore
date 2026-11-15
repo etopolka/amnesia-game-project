@@ -1,0 +1,19 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# Builds
+[Bb]uild/
+[Bb]uilds/
+
+# IDE
+.vs/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

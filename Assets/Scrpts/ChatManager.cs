@@ -105,7 +105,11 @@ public class ChatManager : MonoBehaviour
         }
 
         sendButton.interactable = true;
-        messageInput.ActivateInputField();
+
+        if (messageInput.gameObject.activeInHierarchy)
+        {
+            messageInput.ActivateInputField();
+        }
     }
 
     void ScrollToBottom()
